@@ -1,6 +1,4 @@
-Data Structures
-
-#12/01/17
+#Data Structures
 
 ##Array
 
@@ -28,7 +26,6 @@ Structured like so: [1,2,3,4,7,2...] with the nth element called as:
   * Does it really do what it's supposed to do? : Verification
   * How efficiently does it do it? : Performance analysis
 
-#17/01/17
 
 ##Linked Lists
 
@@ -142,3 +139,24 @@ will always access each element before we arrive at the last element.
 ##Stacks
 
 3.3
+
+The majority of data structures can be narrowed down in to these collections
+
+* Sets
+* Stacks
+* Sets
+
+A linked list is equivalent to a linked list. They are the ideal data
+structures to a 'First in Last Out' model.
+
+Although they are almost identical to a linked list they require their own
+_primitive operators_ are given different names. The 2 constructors are:
+
+*_TO DO, WRITE CONSTRUCTORS & OPERATORS_*
+
+##Queues
+
+Very similar to a linked list graphically but with a pointer to the first and
+last element in the list.
+
+
