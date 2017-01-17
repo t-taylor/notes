@@ -25,3 +25,4 @@ git checkout feature
 ```
 
 * `master` by convention is the trunk.
+* `HEAD` points to the current working directory

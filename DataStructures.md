@@ -159,4 +159,6 @@ _primitive operators_ are given different names. The 2 constructors are:
 Very similar to a linked list graphically but with a pointer to the first and
 last element in the list.
 
+##Searching
+
 
