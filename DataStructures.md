@@ -13,9 +13,9 @@ Structured like so: [1,2,3,4,7,2...] with the nth element called as:
 
 ##Proof By Induction
 
-Base case- `C[0]`
-Inductive step- `C[i] => C[i+1]`
-In Sections 6.5 in PDF notes
+* Base case- `C[0]`
+* Inductive step- `C[i] => C[i+1]`
+* In Sections 6.5 in PDF notes
 
 1. Initialization ← takes in assumptions
 2. Loop start
@@ -24,9 +24,9 @@ In Sections 6.5 in PDF notes
 
 ##Standard algorithm:
 
-*.. What does it do? : Specification
-*.. Does it really do what it's supposed to do? : Verification
-*.. How efficiently does it do it? : Performance analysis
+..* What does it do? : Specification
+..* Does it really do what it's supposed to do? : Verification
+..* How efficiently does it do it? : Performance analysis
 
 #17/01/17
 
