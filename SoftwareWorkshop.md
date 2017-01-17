@@ -1,6 +1,4 @@
-Software Workshop
-
-#13/01/17
+#Software Workshop
 
 ##Threading
 
@@ -36,7 +34,6 @@ access and change it at the same time, causing an incorrect value
 
 In order to fix this use synchronise
 
-#16/01/17
 
 ##Dead locks
 
@@ -54,5 +51,4 @@ Alternatively synchronized can be used which creates a lock in the _Object_
 You have to use synchronize on the method call in order to create a lock on the
 method to all Objects accessing it. To avoid a deadlock with multiple methods
 use nested syncing to create a double lock.
-
 

@@ -1,7 +1,6 @@
-Software Engineering
+#Software Engineering
 
-#16/01/17
-
+##Git
 Load of stuff about git.....
 
 ```sh
@@ -16,10 +15,13 @@ git reset --soft c724e12
 ##Branches
 
 In order not to mess up the trunk (master) while you're working in a repo
-create a branch to work in while you're working on the code
+create a branch to work in while you're working on the code.
+
 ```sh
 git branch feature
 #Creates new branch called feature
 git checkout feature
 #Switches local repo with the feature branch
 ```
+
+* `master` by convention is the trunk.
