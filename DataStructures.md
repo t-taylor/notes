@@ -172,7 +172,6 @@ be represented with the 5 in the first tuple block (Note the previous image). Th
 * `isEmpty(stack)`
 
 ##Queues
-![stack](images/stack.png)
 
 Very similar to a linked list graphically but with a pointer to the first and
 last element in the list.
@@ -197,5 +196,7 @@ For example if the take the above queue and apply `push(5, q)` we get:
 * `isEmpty(queue)`
 
 ##Searching
+
+4
 
 
