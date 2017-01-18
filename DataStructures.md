@@ -34,7 +34,7 @@ Structured like so: [1,2,3,4,7,2...] with the nth element called as:
 A list of two celled blocks. One which contains data (e.g. 1, "apple", 'x') and
 one which contains the location of the next container.
 
-![linked list](linkedlist.png)
+![linked list](images/linkedlist.png)
 
 In order to create this we require:
 1. `EmptyList`
@@ -149,15 +149,52 @@ The majority of data structures can be narrowed down in to these collections
 A linked list is equivalent to a linked list. They are the ideal data
 structures to a 'First in Last Out' model.
 
-Although they are almost identical to a linked list they require their own
-_primitive operators_ are given different names. The 2 constructors are:
+[stack](images/stack.png)
 
-*_TO DO, WRITE CONSTRUCTORS & OPERATORS_*
+###Constructors
+
+Although they are almost identical to a linked list they require their own
+_primitive operators_ are given different names and the stack [3,1,4,2,5] would
+be represented with the 5 in the first tuple block (Note the previous image). The 2 constructors are:
+
+* `EmptyStack` 
+  * The empty stack
+* `push(element, stack)`
+  * Which layers an element in top of an already existing stack
+
+###Selectors
+
+* `top(stack)`
+* `pop(stack)`
+
+###Conditions
+
+* `isEmpty(stack)`
 
 ##Queues
+![stack](images/stack.png)
 
 Very similar to a linked list graphically but with a pointer to the first and
 last element in the list.
+
+![Queue](images/queue.png)
+*Queue [3,1,4,2]*
+
+This allows for efficiently taking the first or last element of the structure
+independent of data length
+
+###Constructors
+
+* `EmptyQueue`
+* `push(element, queue)`
+
+For example if the take the above queue and apply `push(5, q)` we get:
+
+![queue two](images/queue2.png)
+
+###Conditions
+
+* `isEmpty(queue)`
 
 ##Searching
 
