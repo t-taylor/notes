@@ -149,7 +149,7 @@ The majority of data structures can be narrowed down in to these collections
 A linked list is equivalent to a linked list. They are the ideal data
 structures to a 'First in Last Out' model.
 
-[stack](images/stack.png)
+![stack](images/stack.png)
 
 ###Constructors
 
@@ -197,6 +197,40 @@ For example if the take the above queue and apply `push(5, q)` we get:
 
 ##Searching
 
-4
+###Requirements
+
+Considering an Array, one of the simplest structures, listing numbers that we
+wish to search for:
+
+`a = [1,2,5,7,8,34,111]`
+
+If we ask where 5 is in the array the answer is 3. If we ask where 30 is the
+answer is _nowhere_. Since we start counting at 0, -1 can be used to represent
+nowhere (It is at `a[-1]` in the array).
+
+###Specification
+
+Now we have a basic syntax for our search problem we can now form a
+specification:
+
+_Given an array_ `a` _and integer_ `x` _find an integer_ `i` _such that_
+1. _If there is no_ `j` _such that_ `a[j]` _is_ `x`, _then_ `i` _is_ `-1`
+2. _Otherwise,_ `i` _is any_ `j` _for which_ `a[j]` _is_ `x`.
+
+Note that this specification is ambiguous as if there are multiple occurrences
+of `x` we do not distinguish between a correct value of `j`. There is nothing
+wrong with this.
+
+###Simple algorithm
+
+```
+//Assusming array a of size n and a key x
+For int i = 0 to n-1
+    if a[i] == x,
+        then return i
+return -1
+```
+
+###Binary Search
 
 
