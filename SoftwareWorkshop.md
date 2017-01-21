@@ -52,3 +52,40 @@ You have to use synchronize on the method call in order to create a lock on the
 method to all Objects accessing it. To avoid a deadlock with multiple methods
 use nested syncing to create a double lock.
 
+##Sockets
+
+###Client
+
+```java
+Socket s = new Socket("Machine name", int PortNumber);
+```
+
+To get input from the sever we require an input stream:
+
+###Server
+
+```java
+ServerSocket s = new ServerSocket(PortNumber);
+```
+We also need to create a listener for the client to connect to the server.
+```java
+Socket listen = s.accept();
+```
+
+Note: all of these throw exceptions but I'm too lazy here to write them out.
+
+###I/O
+
+For gathering input:
+
+```java
+DataInputstream input = new DataInputStream(s.getIputStream());
+```
+
+For sending output;
+
+```java
+DataOutputStream output = new DataOutStream(s.getOutputStream());
+```
+
+
